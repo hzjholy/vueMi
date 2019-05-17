@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 移动端viewport -->
+    <meta name="viewport"
+content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <!-- 引入初始化样式reset.css -->
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <!-- 引入图标字体 -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 解决点击0.3s响应延迟 -->
+    <!-- fastclick.js -->
+    <script src="js/fastclick.js"></scrip t> <script> if ('addEventListener' in document) { document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); } if(!window.Promise) { document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js" '+'>'+'<'+'/'+'script>'); } </script>
+
+    <title>demo01</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but demo01 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
